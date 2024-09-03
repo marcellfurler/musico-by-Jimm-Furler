@@ -1,0 +1,379 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Mukta Malar;
+    background-color: white;
+    color: black;
+
+    
+}
+
+/* navigasiHeader */
+
+.navigasiHeader{
+    display: flex;
+    align-items: center;
+    background-color: #0C134F;
+    border: 20px;
+    z-index: 9999;
+}
+
+
+/* logo */
+
+
+.navigasiHeader .tombolBack a img{
+    width: 15px;
+    margin-left: 50px;
+    
+}
+
+
+
+
+.navigasiHeader a h1{
+    color: white;
+    font-size: 30px ;
+    font-family: galindo;
+    margin-left: 70px;
+}
+
+.navigasiHeader a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* navigasiNav */
+
+.navigasiHeader .navigasiNav a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+
+
+}
+
+.navigasiHeader .navigasiNav{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.navigasiHeader .navigasiNav a:hover{
+    text-decoration: underline;
+    color: #DBDFEA;
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: Mukta Malar;
+    
+}
+
+
+/* BreadCrumb */
+
+.breadCrumb{
+    /* display: inline; */
+    /* justify-content: left; */
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.breadCrumb a{
+    text-decoration: none;
+    color: black;
+    /* margin-right: 0px; */
+    
+}
+
+.breadCrumb a:hover{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* detail konten */
+
+.kontenMain .detailKonten p span{
+    font-weight: bold;
+}
+
+
+/* .kontenMain>img {
+    border-radius: 30px;
+    width: auto;
+    align-items: center;
+    margin-bottom: 25px;
+    
+} */
+
+
+.kontenMain>img {
+    border-radius: 30px;
+     /* Mengubah gambar menjadi elemen blok untuk menggunakan margin auto */
+    margin: 0 auto; /* Mengatur margin kiri dan kanan ke auto */
+    width: 60%;
+    align-items: center; /* Ini tidak berlaku untuk elemen gambar, Anda mungkin ingin menghapusnya */
+}
+
+
+
+
+
+
+
+
+/* main utama */
+
+
+/* untuk margin bagian bawah, terkecualinavigasi diatas */
+
+body .kontenMain{
+    /* margin: auto; */
+    margin: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+
+/* .kontenMain .posterKonten{ */
+    /* width: 800px; kunci utama semua konten kebawah */
+    /* border-radius: 20px; */
+/* } */
+
+.kontenMain .detailKonten{
+    /* margin: 20px auto; */
+    margin-left: 25%;
+    /* text-align: center; */
+    margin-top: 80px;
+    margin-bottom: 150px;
+    font-size: large;
+    float: right;
+    width: 30%;
+    margin-left: 0;
+}
+
+
+
+
+
+
+.informasiKonten .deskripsi{
+    width: 75%;
+    height: 70%;
+    float: left;
+    overflow-y:auto;
+    margin-right: 2px;
+}
+    
+
+
+
+.informasiKonten .deskripsi img{
+    width: 300px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.informasiKonten .tiket{
+    width: 20%;
+    height: 70%;
+    float: right;
+    /* margin-left: 2px; */
+    
+    
+
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .rincianTiket{
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+
+/* untuk event ended */
+
+.tiket .rincianKelasTiket .kelasTiket .rincianTiket button{
+    border: 2px solid;
+    border-radius: 30px;
+    /* border-color: #9BA4B5; */
+    background-color: red;
+    text-shadow:5px 5px 10px rgba(1, 1, 1, 2);
+    color: black;
+    border-width: 2px;
+    font-family: Mukta Malar;
+    border-style: 70px;
+    font-size: 12px;
+    margin: 30px;
+}
+
+
+
+
+/* button tersedia */
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia{
+    color:black;
+    text-decoration: none;
+    background-color: #ACB1D6;
+    width: 70px;
+    margin: 30px;
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia:hover{
+    background-color: #a0a4c6;
+    box-shadow: grey;
+
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Mukta Malar;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footeren{
+    clear: both;
+    width: auto;
+    height: 140px;
+    background: #0C134F;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+.footeren footer{
+    background-color: #0C134F;
+    margin-top:80px ;
+    color: white;
+    /* height: 100px; */
+    
+}
+
+.footeren footer>p{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footeren footer>p:nth-child(5){
+    font-weight: 1000;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* untuk border pemesanan */
+
+.tiket .rincianKelasTiket .kelasTiket .rincianTiket{
+    border-radius: 10px;
+    background-color: #0C134F;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    /* margin-left: 100px; */
+    /* margin-right: 10px; */
+
+}
+.tiket .rincianTiket p,
+.tiket .rincianTiket h4 {
+    color: white;
+
+    text-align: center;
+}
+
+
+
+
+/* .kontenMain .detailKonten{
+    grid-template-columns: 1fr;
+    box-sizing: 5px;
+    padding: 50px;
+} */
+
+.kontenMain .informasiKonten .deskripsi{
+    /* border: 1px solid; */
+    border-radius: 20px;
+    background-color: rgb(236, 235, 235);
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.kontenMain .informasiKonten .deskripsi>h2{
+    border-bottom: solid 5px;
+    text-align: center;
+}
+
+.kontenMain .informasiKonten .tiket{
+    /* border: 1px solid; */
+    border-radius: 20px;
+    background-color: rgb(236, 235, 235);
+    /* border: 0.1px solid; */
+    /* box-shadow: 10px 5px 10px 5px #888888;; */
+    
+}
+
+.kontenMain .informasiKonten .tiket>h2{
+    border-bottom: solid 5px;
+    text-align: center;
+}
+
+
+
+
+
+.kontenMain .informasiKonten .deskripsi p, h4, h3{
+    margin: 10px;
+}
+
+.kontenMain .informasiKonten ol{
+    margin-right: 20px;
+}
+
+
+
+
+

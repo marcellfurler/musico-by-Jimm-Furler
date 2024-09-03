@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musico</title>
+    <link rel="icon" type="image" href="gambar/Logo2.png">
+    <link rel="stylesheet" href="Pembayaran.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chonburi&family=Frank+Ruhl+Libre:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Single+Day&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <!-- Navigasi -->
+    
+     <div class="navigasiHeader">
+
+        <div class="tombolBack">
+            <a href="DetailKonten_GrupBand.html"><img src="gambar/Back.png" alt=""></a>
+        </div>
+
+
+        <!-- Logo -->
+        <a href="Halaman.html"><h1>Musico</h1></a>
+
+
+        <div class="navigasiNav">
+            <a href="Halaman.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="#">Login</a>
+        </div>
+
+    </div>
+
+
+    <div class="breadCrumb">
+        <a href="Halaman.html">Home /</a>
+        <a href="DetailKonten_GrupBand.html">The Hold On Tight Tour /</a>
+        <a href="Pembayaran_GrupBand.html">Pembayaran: The Hold On Tight Tour</a>
+    </div>
+
+    
+    <div class="berandaAtas">
+        <h1>Pembayaran Tiket Jesse Barrera & Albert Posis - The Hold On Tight Tour</h1>
+        <img src="https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20240313175915_65f187031a106.jpg" alt="Jesse Barrera & Albert Posis - The Hold On Tight Tour">
+    </div>
+
+    <div class="biodata">
+        <!-- <h3>Silahkan memasukan biodata anda untuk melakukan pembayaran Tiket</h3> -->
+        <form action="#" method="post" class="biodataPembeli">
+            <!-- <h3>Biodata</h3> -->
+
+            <label for="nama">Nama Pemesan:</label><br>
+            <input type="text" id="nama" name="nama" placeholder="Nama" required>
+            <br><br>
+
+            <label for="nomorhp">Nomor Ponsel Pemesan: </label><br>
+            <input type="tel" id="nomorhp" name="nomorhp" placeholder="Contoh: 08**********" min="10" max="13" required>
+            <br><br>
+
+            <label for="email">Email Pemesan: </label> <br>
+            <input type="email" placeholder="email@example.com" required>
+            <br><br>
+
+            <!-- <label for="jumlahPemesanan">Masukan jumlah Pesanan</label><br>
+            <input type="number" name="jumlahPemesanan" id="number" max="5" min="1" placeholder="Max 5" required>
+            <button onclick="document.getElementById('number').stepUp()" class="add">+</button>
+            <button onclick="document.getElementById('number').stepDown()" class="minus">-</button> -->
+
+            <label for="jumlahPemesanan">Masukan jumlah Pesanan</label><br>
+            <div class="number-input">
+                <input type="number" name="jumlahPemesanan" id="number" max="5" min="1" placeholder="Max 5" required>
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="add">+</button>
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
+
+            </div>
+            <br>
+
+            
+            <button onclick="alert('Apakah anda yakin ingin mereset inputan anda?')" type="reset" class="reset">Reset</button>
+            <button onclick="alert('Data Anda Berhasil di tambahkan. Terima Kasih atas inputan anda. Jangan lupa balik ya!')" type="submit" class="sumbit" ><a href="DetailKonten_GrupBand.html">Submit</a></button>
+
+        </form>
+    </div>
+
+
+
+
+
+
+    <!-- status oke -->
+    <div class="footeren">
+        <footer>
+            <p>Pemilik Mini Project</p>
+            <p>&copy;Marcell Jureinwi Manuhutu - 71220855</p>
+            <p>&copy;Rizky Charles Christiaan - 71220902</p>
+            <p>&copy;Rifaldy Exclesia Tamauka - 71220922</p>
+            
+            <p>Universitas Kristen Duta Wacana</p>
+        </footer>
+    </div>
+</body>

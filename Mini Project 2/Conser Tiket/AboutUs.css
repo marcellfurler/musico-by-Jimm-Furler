@@ -1,0 +1,415 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Mukta Malar;
+    background-color: white;
+    color: black;
+
+    
+}
+
+/* navigasiHeader */
+
+.navigasiHeader{
+    display: flex;
+    align-items: center;
+    background-color: #0C134F;
+    border: 20px;
+    z-index: 9999;
+}
+
+
+.navigasiHeader .tombolBack a img{
+    width: 15px;
+    margin-left: 50px;
+    
+}
+
+/* logo */
+
+
+.navigasiHeader h2{
+    color: white;
+    font-size: 40px ;
+    margin-left: 50px;
+}
+
+
+
+/* navigasiNav */
+
+.navigasiHeader .navigasiNav a{
+    color: white;
+    display: inline-block;
+    /* font-size: 20px; */
+    /* margin: 0px 10px; */
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+    
+
+}
+
+.navigasiNav {
+    margin-left: auto;
+}
+
+.navigasiHeader .navigasiNav a:hover{
+    text-decoration: underline;
+    color: #DBDFEA;
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-family: Mukta Malar;
+    
+}
+
+
+.gambarAtas img {
+    width: 100%;
+    margin-top: 45px;
+    box-shadow: black;
+}
+
+.gambarAtas .tulisanWelcome{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: white;
+    text-shadow: 8px 2px black;
+}
+
+.gambarAtas .tulisanWelcome span{
+    font-family: Mukta Malar;
+}
+
+
+
+
+
+
+/* pencarian.  status oke */
+
+.pencarian {
+    margin-right: 100px;    
+}
+
+
+.navigasiHeader .pencarian form button  .formPencarian{
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+    height: 25px;
+    font-family: Mukta Malar;
+    text-align: center;
+    /* margin-right: 100px; */
+    
+}
+
+
+
+.navigasiHeader .pencarian form button .pencarianSubmit:hover{
+    box-shadow: 5px 5px 10px rgba(0.3, 0.3, 0.3, 0.3)
+}
+
+
+
+/* detail konten */
+
+.detailKonten p span{
+    font-weight: bold;
+}
+
+
+
+/* main utama */
+
+
+/* untuk margin bagian bawah, terkecualinavigasi diatas */
+
+body .kontenMain{
+    /* margin: auto; */
+    margin: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+
+.kontenMain .posterKonten{
+    width: 800px; /*kunci utama semua konten kebawah*/
+    border-radius: 20px;
+}
+
+.kontenMain .detailKonten{
+    margin: 20px;
+}
+
+/* .informasiKonten .deskripsi{
+    border: 1px solid;
+    /* border-width: 50px; */
+    /* margin-right: 300px; */
+/* } */
+
+.informasiKonten .deskripsi{
+    width: 48%;
+    height: 70%;
+    float: left;
+    overflow-y:auto;
+    margin-right: 2px;
+}
+    
+
+
+
+.informasiKonten .deskripsi img{
+    width: 300px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    align-items: center;
+    
+}
+
+
+.informasiKonten .tiket{
+    width: 48%;
+    height: 70%;
+    float: right;
+    margin-left: 2px;
+    
+    
+
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .rincianTiket{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+/* untuk event ended */
+
+.tiket .rincianKelasTiket .kelasTiket .rincianTiket button{
+    border: 2px solid;
+    border-radius: 30px;
+    /* border-color: #9BA4B5; */
+    background-color: red;
+    text-shadow:5px 5px 10px rgba(1, 1, 1, 2);
+    color: black;
+    border-width: 2px;
+    font-family: Mukta Malar;
+    border-style: 70px;
+    font-size: 12px;
+    margin: 30px;
+}
+
+/* .tiket .rincianKelasTiket .kelasTiket .rincianTiket button:hover{
+    background-color: #9BA4B5;
+} */
+
+
+/* button tersedia */
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia{
+    color:black;
+    text-decoration: none;
+    background-color: #ACB1D6;
+    width: 70px;
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia:hover{
+    background-color: #a0a4c6;
+    box-shadow: grey;
+
+}
+
+.informasiKonten .tiket .rincianKelasTiket .kelasTiket .tersedia a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Mukta Malar;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footeren{
+    clear: both;
+    width: auto;
+    height: 150px;
+    background: #0C134F;
+    color: white;
+    font-weight: bold;
+}
+.footeren footer{
+    margin: 50px;
+    font-weight: normal;
+}
+
+.footeren p ul{
+    margin-top: 50px;
+}
+
+
+
+
+
+.footeren ul>li{
+    list-style: none;
+    text-align: center;
+}
+
+.footeren footer>p{
+    text-align: center;
+}
+
+.footeren footer>p>ul>li{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* untuk border pemesanan */
+
+.tiket .rincianKelasTiket .kelasTiket .rincianTiket{
+    border: 1px solid red;
+    border-bottom: 1px solid red;
+    border-radius: 20px;
+    background-color: grey;
+
+}
+
+
+
+
+.kontenMain .detailKonten{
+    /* float: right; */
+    /* margin-top: 80px; */
+    /* display: grid; */
+    grid-template-columns: 1fr;
+    box-sizing: 5px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+.pencarian {
+    margin-right: 100px;    
+}
+
+
+
+.navigasiHeader .pencarian form .formPencarian{
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+    height: 25px;
+    font-family: Mukta Malar;
+    text-align: center;
+    /* margin-right: 100px; */
+    
+}
+
+.navigasiHeader .pencarian form .formPencarian:hover{
+    box-shadow: 5px 5px 10px rgba(0.1, 0.1, 0.1, 0.3)
+}
+
+
+
+.navigasiHeader .pencarian form .pencarianSubmit{
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    width: 75px;
+    height:  25px;
+    background-color: #9BA4B5;
+    font-family: Mukta Malar;
+    /* margin-right: 100px; */
+}
+
+
+.navigasiHeader .pencarian form .pencarianSubmit:hover{
+    box-shadow: 5px 5px 10px rgba(0.3, 0.3, 0.3, 0.3)
+}
+
+.pencarian .dropdown .dropdownForm, .dropdownForms{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style container for the search form */
+.pencarian {
+    display: inline-block;
+}
+
+/* Style form input */
+.formPencarian {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style dropdown toggle button */
+.dropdownForm > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+/* Style dropdown content */
+.dropdownForms {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    width:250px;
+}
+
+/* Style dropdown content items */
+.dropdownForms li {
+    padding: 8px;
+}
+
+/* Show dropdown content when toggle button is clicked */
+.dropdownForm:hover .dropdownForms {
+    display: block;
+}
+
+.pencarian .dropdownForm .dropdownForms li>a{
+    text-decoration: none;
+    color: black;
+}

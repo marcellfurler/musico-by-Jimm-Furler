@@ -1,0 +1,428 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Mukta Malar;
+    background-color: white;
+    width: 100%;
+    
+}
+
+/* navigasiHeader */
+
+.navigasiHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C134F;
+    /* border: 20px; */
+    z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+/* navigasiNav */
+
+/* .navigasiHeader .navigasiNav{
+    margin-right: 100px;
+} */
+
+.navigasiHeader .navigasiNav a{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.navigasiHeader a h1{
+    color: white;
+    font-size: 30px ;
+    font-family: galindo;
+    margin-left: 70px;
+}
+
+.navigasiHeader a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.navigasiHeader .navigasiNav a:hover{
+    text-decoration: underline;
+    color: #DBDFEA;
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+.gambarAtas img {
+    width: 99%;
+    /* margin-top: auto; */
+    box-shadow: black;
+    margin: 5px;
+    border-radius: 5px;
+    position: relative;
+
+    /* display: flex; */
+    /* min-height: 200px; */
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* pencarian.  status oke */
+
+
+.pencarian {
+    margin-right: 100px;    
+}
+
+
+
+
+.navigasiHeader .pencarian form .formPencarian{
+    border-radius: 30px 30px 30px 30px;
+    width: 250px;
+    height: 25px;
+    font-family: Mukta Malar;
+    text-align: center;
+    /* margin-right: 100px; */
+    
+}
+
+.navigasiHeader .pencarian form .formPencarian:hover{
+    box-shadow: 5px 5px 10px rgba(0.1, 0.1, 0.1, 0.3)
+}
+
+
+
+
+
+
+.navigasiHeader .pencarian form .pencarianSubmit:hover{
+    box-shadow: 5px 5px 10px rgba(0.3, 0.3, 0.3, 0.3);
+ 
+}
+
+.pencarian .dropdown .dropdownForm, .dropdownForms{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pencarian .dropdown .dropdownForm .dropdownForms li, h3{
+    margin: 0px;
+}
+
+.pencarian .dropdownForm>li a:hover{
+    text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+
+/* Style container for the search form */
+.pencarian {
+    display: inline-block;
+}
+
+/* Style form input */
+.formPencarian {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style dropdown toggle button */
+.dropdownForm > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+/* Style dropdown content */
+.dropdownForms {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    width:220px;
+}
+
+/* Style dropdown content items */
+.dropdownForms li {
+    padding: 8px;
+}
+
+/* Show dropdown content when toggle button is clicked */
+.dropdownForm:hover .dropdownForms {
+    display: block;
+}
+
+.pencarian .dropdownForm .dropdownForms li>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.pencarian .dropdownForm .dropdownForms>li:nth-child(1) a{
+    width: 100;
+}
+
+
+
+
+.pencarian .dropdownForm .dropdownForms>li:nth-child(2) input{
+    border-radius: 5px;
+    height: 20px;
+    width: 197px;
+}
+
+.pencarian .dropdownForm .dropdownForms>li:nth-child(3) input{
+    width: 197px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+
+/* kontenKonser */
+.kontenKonser{
+    width: 1360px;
+    text-align: left;
+    margin: 220px;
+    position: relative;
+    margin: auto;
+}
+
+.kontenKonser h2{
+    /* position: sticky; */
+    top: 0%;
+    color: black;
+    border-bottom:1px solid black;
+}
+
+.kontenKonser .kontenBox {
+    border: 0px solid;
+    /* display:grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); */
+    gap: 1.5rem;
+}
+
+
+.kontenKonser .kontenBox .buttonKontenBoxes:hover{
+    /* background-color: blue; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    
+}
+
+
+
+
+
+.kontenKonser h2{
+    margin-top: 50px;
+}
+
+.kontenKonser h3{
+    font-size: 14px;
+}
+.buttonKontenBoxes.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+
+
+/* untuk gambarnya */
+.kontenKonser .kontenBox .buttonKontenBoxes a img{
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+    padding: 10px 10px 0px 10px;
+    
+
+}
+
+/* garis border */
+
+.kontenKonser .kontenBox .buttonKontenBoxes a h3{
+    border-bottom: solid 3px;
+}
+
+.kontenKonser .kontenBox .buttonKontenBoxes:hover{
+    background-color: #444fb4;
+}
+
+
+
+/* konten boxes */
+.kontenKonser .kontenBox .buttonKontenBoxes{
+    width: 190px ;
+    height: 310px;
+    border-radius: 15px;
+    background-color: #2b39b5;
+    justify-content: space-between;
+    margin-left:20px ;
+
+}
+
+
+/* untuk tulisan dalam kontennya */
+.kontenKonser .kontenBox .buttonKontenBoxes a{
+    font-family: Mukta Malar;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* .kontenKonser .kontenBox .buttonKontenBoxes p,h3{
+    color: black;
+    position: s;
+} */
+
+
+
+
+/* button see more */
+
+/* .kontenKonser .buttonSeeMore{
+    background-color:#F1F6F9;
+    text-decoration: none;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+    float: right;
+    margin-top: 30px;
+    
+}
+
+.kontenKonser .buttonSeeMore:hover{
+    background-color: #9BA4B5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
+    
+}
+
+.kontenKonser .buttonSeeMore a{
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Mukta Malar;
+    color: black;
+} */
+
+
+/* footer */
+
+.footeren footer{
+    background-color: #0C134F;
+    margin-top:80px ;
+    color: white;
+    height: 140px;
+    font-size: 12px;
+    
+}
+
+.footeren footer>p{
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footeren footer>p:nth-child(5){
+    font-weight: 1000;
+    margin-top: 20px;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+.pencarian .pencarianForm .submitButton a{
+    color:black;
+    text-decoration: none;
+    font-family: Mukta Malar;
+}
+
+.pencarian .pencarianForm .submitButton{
+    border-radius: 30px;
+    width: 80px;
+}
+
+
+
+
+
+/* .footerenSeeMore footer{
+    background-color: #0C134F;
+    color: white;
+    width: 100%;
+    display: felx;
+} */
+
+
+
+
+.navigasiHeader span{
+    color: red;
+}
+
+
